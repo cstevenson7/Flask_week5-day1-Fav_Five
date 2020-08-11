@@ -1,0 +1,19 @@
+/* Banner Image with Hero Image and Text */
+.banner {
+    height: 95vh;
+    background-image:  url(../images/Huen2.jpg);
+    background-size: cover;
+   
+    /*-webkit-clip-path: polygon(0 0,100% 0,100% 80vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);  background-position: 35% 50%;*/
+}
+.header-text {
+    display: flex;
+    justify-content: center;
+    padding-top: 12%;
+    left: 30rem;
+    font-size: 50px;
+    top: 10rem;
+    font-weight: bolder;
+    color: black;
+}
